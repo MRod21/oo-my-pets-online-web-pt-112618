@@ -62,6 +62,6 @@ class Owner
       pets.collect {|pet| pet.mood = "nervous"}
     end
     @pets.clear
-    binding.pry 
   end
+  
 end
